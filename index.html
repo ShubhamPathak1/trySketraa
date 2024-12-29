@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Inputs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="areaInp">
+        <p>Enter Area of Land in Aana and Paisa</p>
+        <label for="aanaInp">Aana</label>
+        <select name="aanaInp" id="aanaInp">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <label for="paisaInp">Paisa</label>
+        <select name="paisaInp" id="paisaInp">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+
+    <div class="roomInp">
+        <p>Number of Rooms</p>
+        <label for="2bhk2b"><input type="radio" name="noOfRooms" id="2bhk2b" value="2bhk2b">2 Bedrooms, 1 Living Room, 1 Kitchen, 2
+            Bathrooms, 1 Car Garage</label>
+        <label for="2bhkb"><input type="radio" name="noOfRooms" id="2bhkb" value="2bhkb">2 Bedrooms, 1 Living Room, 1 Kitchen, 1 Bathroom,
+            1 Car Garage</label>
+        <label for="3bhkb"><input type="radio" name="noOfRooms" id="3bhkb" value="3bhkb">3 Bedrooms, 1 Living Room, 1 Kitchen, 1 Bathroom,
+            1 Car Garage</label>
+        <label for="2bhkbd"><input type="radio" name="noOfRooms" id="2bhkbd" value="2bhkbd">2 Bedrooms, 1 Living Room, 1 Kitchen, 1
+            Bathroom, 1 Dining Room, 1 Car Garage</label>
+
+    </div>
+    <div class="planShow">
+        
+    </div>
+
+    <input type="submit" value="Generate" class="generate">
+
+    <script src="script.js"></script>
+</body>
+
+</html>
